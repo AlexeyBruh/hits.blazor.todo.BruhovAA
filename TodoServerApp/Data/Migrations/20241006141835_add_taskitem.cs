@@ -34,10 +34,10 @@ namespace TodoServerApp.Migrations
                 columns: new[] { "Id", "CreatedDate", "Description", "FinishDate", "Title" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 12, 17, 20, 53, 2, 152, DateTimeKind.Local).AddTicks(6108), "Описание задачи 1", null, "Задача 1" },
-                    { 2, new DateTime(2024, 12, 17, 20, 53, 2, 152, DateTimeKind.Local).AddTicks(6124), "Описание задачи 2", null, "Задача 2" },
-                    { 3, new DateTime(2024, 12, 17, 20, 53, 2, 152, DateTimeKind.Local).AddTicks(6125), "Описание задачи 3", null, "Задача 3" },
-                    { 4, new DateTime(2024, 12, 17, 20, 53, 2, 152, DateTimeKind.Local).AddTicks(6126), "Описание задачи 4", null, "Задача 4" }
+                    { 1, new DateTime(2024, 10, 6, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8888), "Описание задачи 1", new DateTime(2024, 10, 8, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8905), "Задача 1" },
+                    { 2, new DateTime(2024, 10, 6, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8910), "Описание задачи 2", new DateTime(2024, 10, 11, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8910), "Задача 2" },
+                    { 3, new DateTime(2024, 10, 6, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8912), "Описание задачи 3", new DateTime(2024, 11, 9, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8912), "Задача 3" },
+                    { 4, new DateTime(2024, 10, 6, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8914), "Описание задачи 4", new DateTime(2024, 11, 27, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8914), "Задача 4" }
                 });
         }
 

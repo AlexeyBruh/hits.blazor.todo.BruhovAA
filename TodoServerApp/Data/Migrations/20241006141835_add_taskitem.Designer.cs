@@ -12,7 +12,7 @@ using TodoServerApp.Data;
 namespace TodoServerApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241217155302_add_taskitem")]
+    [Migration("20241006141835_add_taskitem")]
     partial class add_taskitem
     {
         /// <inheritdoc />
@@ -20,7 +20,7 @@ namespace TodoServerApp.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.10")
+                .HasAnnotation("ProductVersion", "8.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -251,29 +251,33 @@ namespace TodoServerApp.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 12, 17, 20, 53, 2, 152, DateTimeKind.Local).AddTicks(6108),
+                            CreatedDate = new DateTime(2024, 10, 6, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8888),
                             Description = "Описание задачи 1",
+                            FinishDate = new DateTime(2024, 10, 8, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8905),
                             Title = "Задача 1"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 12, 17, 20, 53, 2, 152, DateTimeKind.Local).AddTicks(6124),
+                            CreatedDate = new DateTime(2024, 10, 6, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8910),
                             Description = "Описание задачи 2",
+                            FinishDate = new DateTime(2024, 10, 11, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8910),
                             Title = "Задача 2"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 12, 17, 20, 53, 2, 152, DateTimeKind.Local).AddTicks(6125),
+                            CreatedDate = new DateTime(2024, 10, 6, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8912),
                             Description = "Описание задачи 3",
+                            FinishDate = new DateTime(2024, 11, 9, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8912),
                             Title = "Задача 3"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2024, 12, 17, 20, 53, 2, 152, DateTimeKind.Local).AddTicks(6126),
+                            CreatedDate = new DateTime(2024, 10, 6, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8914),
                             Description = "Описание задачи 4",
+                            FinishDate = new DateTime(2024, 11, 27, 19, 18, 35, 391, DateTimeKind.Local).AddTicks(8914),
                             Title = "Задача 4"
                         });
                 });
